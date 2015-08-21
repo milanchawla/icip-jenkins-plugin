@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Tools/CIPlatform/Jenkins_Home/war/WEB-INF/lib/jenkins-core-1.522.jar"/>
+	<classpathentry kind="lib" path="D:/Tools/CIPlatform/Jenkins_Home/plugins/deploy/WEB-INF/lib/classes.jar"/>
+	<classpathentry kind="lib" path="D:/Tools/CIPlatform/Jenkins_Home/plugins/websphere-deployer/WEB-INF/lib/com.ibm.ws.admin.client_7.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Tools/CIPlatform/Jenkins_Home/plugins/websphere-deployer/WEB-INF/lib/com.ibm.ws.orb_7.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+   <parent>
+           <groupId>org.jenkins-ci.plugins</groupId>
+           <artifactId>tg-savejob-plugin</artifactId>
+           <version>1.0</version>
+           <relativePath>../pom.xml</relativePath>
+       </parent>
+   
+       <artifactId>tg-savejob</artifactId>
+       <packaging>hpi</packaging>
+    <name>ToolsGroup_SaveJob_Plugin</name>
+  <version>1.0</version>
+  <url>mailto:tools_deployment@infosys.com</url>
+  
+  
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://issues.hudson-ci.org</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>tg</id>
+      <name>Tools Group</name>
+      <email>Tools_Deployment@infosys.com</email>
+      <timezone>+5</timezone>
+    </developer>
+  </developers>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+    <description>Allow a user to save the job. This will help in re-encrypting the passwords in the jobs created by Infosys Build Automation Platform.
+java -jar jenkins-cli.jar copy-slave ...</description>
+
+<dependencies>
+      <dependency>   
+                <groupId>junit</groupId>   
+                <artifactId>junit</artifactId>   
+                <version>4.10</version>   
+                <scope>test</scope>   
+            </dependency>  
+  </dependencies>
+</project>
